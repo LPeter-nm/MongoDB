@@ -21,10 +21,9 @@ Instale as Dependências:<br>
 Inicie o Servidor de Desenvolvimento:<br>
 `npm run dev`<br>
 
-```javascript
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+# Schema
 
+```javascript
 const ProductSchema = mongoose.Schema(
     {
         name: {
@@ -54,8 +53,3 @@ const ProductSchema = mongoose.Schema(
         timeStamp: true,
     }
 );
-
-const Product = mongoose.model("Product", ProductSchema);
-
-export {Product};
-
