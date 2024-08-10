@@ -4,7 +4,7 @@
 
 --> Foi utilizada para uma apresentação com o tema back-end com MongoDB 
 
-# Skills
+# Ferramentas utilizadas
 [![My Skills](https://skillicons.dev/icons?i=docker,express,nodejs,js,mongodb,git,npm,vscode)](https://skillicons.dev)
 
 # Instruções
