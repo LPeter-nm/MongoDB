@@ -1,6 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import { router } from '../routes/product.route.js';
+import { router } from './routes/product.route.js';
 
 const app = express();
 
@@ -14,7 +14,7 @@ app.use(express.urlencoded({
 app.use("/api/products", router);
 
 mongoose
-  .connect('mongodb://mongoadmin:secret@localhost:27017/test?authSource=admin')
+  .connect('mongodb+srv://mongoadmin:admin@test.9vk9q.mongodb.net/?retryWrites=true&w=majority&appName=test')
   .then(() => {
     console.log('Connected!')
     
